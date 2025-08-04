@@ -13,6 +13,9 @@
 	비밀번호 : <input type="password" name="loginPw"><br><br>
 	<input type="submit" value="로그인">
 	</form>
+	<hr>
+	<a href = "loginUser.jsp">로그인 유저 페이지 이동</a>
+	
 	
 </body>
 </html>
