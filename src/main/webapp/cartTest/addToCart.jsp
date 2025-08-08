@@ -15,7 +15,7 @@
 	
 	  String product = request.getParameter("product");  // 장바구니에 넣을 제품
 	  
-	  ArrayList<String> cart = (ArrayList<String>)session.getAttribute("cart");  
+	  ArrayList<String> cart = (ArrayList<String>)session.getAttribute("cart"); //cart라는 이름의 arraylist를 뺀다 -> 있으면다행, 없으면? null  
 	  // 기존 세션에 cart(arrayList타입) 존재하면 가져오기  ---- 문제 해결
 	  // 첫 번째 장바구니에 삽입시 cart -> null => ArrayList<String> cart = null; 과 같다
 	  
